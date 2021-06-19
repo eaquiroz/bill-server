@@ -31,15 +31,7 @@ let getTotal = function (items){
     return sum;
 }
 
-// OrderItemSchema.pre('save', async function (next) {
-//
-//     let items  = this.items;
-//     console.log(items)
-//     items= items.map((data)=>{
-//        return  data.itemTotal = data.quantity * data.price;
-//     })
-//     next();
-// });
+
 
 OrderSchema.pre('save', async function (next) {
 

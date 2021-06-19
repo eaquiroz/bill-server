@@ -14,6 +14,11 @@ let tax = [
         _id: ObjectId('5e4e22d09e40d42f3b8fa25f'),
         orderType: 'combo',
         tax: 10
+    },
+    {
+        _id: ObjectId('5e4e22d09e40d42f3b8fa65f'),
+        orderType: 'cold',
+        tax: 2
     }
 ];
 
